@@ -57,4 +57,17 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
+    
 });
+document.querySelectorAll('.redirectButton').forEach(function(button) {
+    button.addEventListener("click", function() {
+        window.open("https://youtu.be/QkjtIwKwWyA?si=kIDJcYR1qQXfzOkz", "_blank");
+        console.log("chamou video em nova aba");
+    });
+});
+
+
+function saudacao()
+{
+    window.open = 'https://youtu.be/QkjtIwKwWyA?si=kIDJcYR1qQXfzOkz', '_blank';
+}
